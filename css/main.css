@@ -19,7 +19,14 @@ ul>.stw{
   background: orange;
   transition: 1s;
 }
-.box:active{
+.box:focus{
   width: 300px;
   background-color: royalblue;
+}
+input{
+
+}
+/* focus가 가능한 요소에만 작동 */
+input:focus{
+  background-color: orange;
 }

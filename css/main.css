@@ -19,7 +19,7 @@ ul>.stw{
   background: orange;
   transition: 1s;
 }
-.box:hover{
+.box:active{
   width: 300px;
   background-color: royalblue;
 }

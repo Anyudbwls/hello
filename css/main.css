@@ -1,6 +1,25 @@
 .orange {
   color:orange;
 }
+/* 자식 선택자 */
 ul>.stw{
   color:red;
+}
+/* 인접 형제 선택자 */
+.orange + li {
+  color: aquamarine;
+}
+/* 일반 형제 선택자 */
+.orange ~ li {
+  color: aquamarine;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  background: orange;
+  transition: 1s;
+}
+.box:hover{
+  width: 300px;
+  background-color: royalblue;
 }

@@ -30,3 +30,22 @@ input{
 input:focus{
   background-color: orange;
 }
+
+/* fruits가 가진 모든 하위요소의 두번째 형제 요소 선택 
+.fruits *:nth-child(2){
+  color: red;
+}
+*/
+
+/* nth child의 짝수번째의 후손 요소 
+.fruits *:nth-child(2n){
+  color: red;
+}
+*/
+/* 홀수번째 후손 요소 
+.fruits *:nth-child(2n+1){
+  color: red;
+}  */
+.fruits *:nth-child(n+2){
+  color: red;
+}
